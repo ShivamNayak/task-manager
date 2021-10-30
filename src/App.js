@@ -19,6 +19,7 @@ function App() {
     //   console.log(
     //     "del item id: " + deleteItem[0].id + ", name: " + deleteItem[0].name
     //   );
+    //helloworlds
   };
 
   const newTaskAdder = (newTask) => {
