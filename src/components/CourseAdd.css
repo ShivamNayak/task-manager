@@ -1,0 +1,58 @@
+.goal-adder {
+  /* display: flex; */
+  align-items: center;
+  background-color: antiquewhite;
+  /* box-shadow: 5px 5px 5px 1px #888888; */
+  box-shadow: 0.3rem 0.3rem 0.3rem 0.05rem #888888;
+  border-radius: 1rem;
+  margin: auto;
+  height: 9rem;
+  margin: 2rem;
+}
+
+.header {
+  font-size: 2.4rem;
+  font-family: cursive;
+  color: rgb(161, 103, 49);
+}
+
+.submit-button {
+  font-family: cursive;
+  background-color: rgb(184, 174, 88);
+  color: aliceblue;
+  border: antiquewhite;
+  box-shadow: 5px 5px 5px 1px #888888;
+  margin: auto;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.form {
+  margin: auto;
+}
+
+.placeholder {
+  font-size: 1.5rem;
+  /* margin: auto; */
+  margin-right: 1rem;
+  margin-left: 1rem;
+  width: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .goal-adder {
+    height: 11rem;
+  }
+  /* .placeholder { */
+  /* below width not working */
+  /* width: 100px; */
+  /* below is working */
+  /* background: #888888 */
+  /* } */
+}
+
+@media screen and (max-width: 500px) {
+  .goal-adder {
+    height: 12rem;
+  }
+}

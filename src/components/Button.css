@@ -1,0 +1,10 @@
+.submit-button {
+  font-family: cursive;
+  background-color: rgb(184, 174, 88);
+  color: aliceblue;
+  border: antiquewhite;
+  box-shadow: 5px 5px 5px 1px #888888;
+  margin: auto;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}

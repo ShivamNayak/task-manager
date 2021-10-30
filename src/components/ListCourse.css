@@ -1,0 +1,52 @@
+#main div {
+  -ms-flex: 1; /* IE 10 */
+  flex: 1;
+}
+
+.task {
+  background-color: rgb(141, 42, 91);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
+  margin: 1rem;
+  box-shadow: 5px 5px 5px 1px #888888;
+  /* animation: fadein 2s; */
+  /* margin: auto; */
+  /* color: brown; */
+}
+
+.anime-fade-in {
+  animation: fadein 2s;
+}
+
+.anime-fade-out {
+  animation: fadeout 2s;
+}
+
+.taskContent {
+  font-family: cursive;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  color: aliceblue;
+  /* margin-left: 25rem; */
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

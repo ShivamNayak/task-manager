@@ -1,0 +1,30 @@
+.finisher-container {
+  background-color: cadetblue;
+  border-radius: 1rem;
+  height: 6rem;
+  margin: 1rem;
+  /* padding: 1rem; */
+  text-align: center;
+  box-shadow: 5px 5px 5px 1px #888888;
+}
+
+.finisher-text {
+  color: aliceblue;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 2rem;
+  font-family: cursive;
+}
+
+.anime {
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
